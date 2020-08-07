@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LatihanRelativeLayout</string>
+    <string name="username">Username</string>
+    <string name="Alamat" />
+    <string name="alamat">Alamat</string>
+    <string name="kampus">Kampus</string>
+</resources>

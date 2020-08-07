@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="35dp"
+        android:text="SYARIF SAURMA GULTOM"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0a0a0a"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/editTxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="42dp"
+        android:layout_marginHorizontal="10sp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:hint="@string/username"
+        android:lines="1"
+        android:maxLines="2"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:textColorHighlight="#7cff88" />
+
+    <EditText
+        android:id="@+id/editTxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTxt1"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="10sp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPostalAddress"
+        android:hint="@string/alamat"
+        android:lines="1"
+        android:maxLines="2"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:textColorHighlight="#7cff88" />
+    <EditText
+        android:id="@+id/editTxt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTxt2"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="10sp"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="@string/kampus"
+        android:lines="1"
+        android:maxLines="2"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:textColorHighlight="#7cff88" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_below="@id/editTxt3"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="65dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ramen" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/editTxt3"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/image1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ramen" />
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/editTxt3"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/image2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ramen" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="16dp"
+        android:text="Kembali"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image2"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/btn1"
+        android:padding="16dp"
+        android:text="Next" />
+
+
+</RelativeLayout>
