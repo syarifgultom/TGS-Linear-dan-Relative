@@ -1,3 +1,5 @@
+package com.example.intent_passingdata;
+
 import android.os.Parcel;
 import android.os.Parcelable;
 
