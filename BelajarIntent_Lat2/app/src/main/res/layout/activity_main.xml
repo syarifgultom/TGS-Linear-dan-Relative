@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Salah Satu Tombol berikut"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#ffda92"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_alignRight="@+id/txt1"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="3dp"
+        android:background="#3ed667"
+        android:text="Hidup"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn1"
+        android:layout_alignBottom="@+id/btn1"
+        android:layout_alignParentLeft="true"
+        android:text="Mati"
+        android:background="#ff33"
+        android:textColor="#fff"
+        android:layout_margin="3dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

@@ -8,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.app.Person;
 
-import androidx.appcompat.app.AppCompatActivity;
+
+
 
 public class MainActivity_b extends AppCompatActivity implements View.OnClickListener {
     public Button btnMoveActivity;
