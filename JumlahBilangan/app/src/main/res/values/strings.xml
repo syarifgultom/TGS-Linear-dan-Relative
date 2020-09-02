@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JumlahBilangan</string>
+    <string name="menjumlahkan_2_bilangan">Menjumlahkan 2 Bilangan</string>
+    <string name="masukkan_bilangan_pertama">Masukkan Bilangan Pertama</string>
+    <string name="masukkan_bilangan_kedua">Masukkan Bilangan Kedua</string>
+    <string name="hitung_bilangan">Hitung Bilangan</string>
+    <string name="hasil_penjumlahan">Hasil Penjumlahan</string>
+</resources>
